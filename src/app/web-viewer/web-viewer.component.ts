@@ -37,7 +37,8 @@ export class WebViewerComponent implements OnInit {
     });
   }
   HandleInstance() {
-    this.listInstances = ['grrg', 'rtt'];
+    this.listInstances = ["f0200ea6-f87841f7-bc747be9-499fb06d-e3b50a6c",
+      "6a863e98-22664ba2-5d119098-55e3e3ee-4cdbcd58",];
   }
   ngOnInit() {
     this.getSeriesID();
@@ -46,7 +47,7 @@ export class WebViewerComponent implements OnInit {
     console.log(this.listInstances);
 
 
-    // this.RequestServer(this.listInstancesID);
+    this.RequestServer(this.listInstances);
 
   }
 
